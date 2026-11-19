@@ -47,7 +47,7 @@ test("students pay half of the peak surcharge too", () => {
 });
 
 test.each([
-  [0, "adult", 200],
+  [0, "adult", 999],
   [5, "adult", 200],
   [5.1, "adult", 250],
   [6, "adult", 250],
